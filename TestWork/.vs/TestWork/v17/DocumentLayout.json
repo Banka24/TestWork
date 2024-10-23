@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Banka\\Desktop\\TestWork\\TestWork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{344683B0-BBE1-43AB-8EDF-055101C127A3}|TestWork\\TestWork.csproj|c:\\users\\banka\\desktop\\testwork\\testwork\\testwork\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{344683B0-BBE1-43AB-8EDF-055101C127A3}|TestWork\\TestWork.csproj|solutionrelative:testwork\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{344683B0-BBE1-43AB-8EDF-055101C127A3}|TestWork\\TestWork.csproj|c:\\users\\banka\\desktop\\testwork\\testwork\\testwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{344683B0-BBE1-43AB-8EDF-055101C127A3}|TestWork\\TestWork.csproj|solutionrelative:testwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{344683B0-BBE1-43AB-8EDF-055101C127A3}|TestWork\\TestWork.csproj|c:\\users\\banka\\desktop\\testwork\\testwork\\testwork\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{344683B0-BBE1-43AB-8EDF-055101C127A3}|TestWork\\TestWork.csproj|solutionrelative:testwork\\controllers\\filtercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Banka\\Desktop\\TestWork\\TestWork\\TestWork\\Program.cs",
+              "RelativeDocumentMoniker": "TestWork\\Program.cs",
+              "ToolTip": "C:\\Users\\Banka\\Desktop\\TestWork\\TestWork\\TestWork\\Program.cs",
+              "RelativeToolTip": "TestWork\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T18:31:02.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FilterController.cs",
+              "DocumentMoniker": "C:\\Users\\Banka\\Desktop\\TestWork\\TestWork\\TestWork\\Controllers\\FilterController.cs",
+              "RelativeDocumentMoniker": "TestWork\\Controllers\\FilterController.cs",
+              "ToolTip": "C:\\Users\\Banka\\Desktop\\TestWork\\TestWork\\TestWork\\Controllers\\FilterController.cs",
+              "RelativeToolTip": "TestWork\\Controllers\\FilterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:48:50.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Banka\\Desktop\\TestWork\\TestWork\\TestWork\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "TestWork\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Banka\\Desktop\\TestWork\\TestWork\\TestWork\\Services\\OrderService.cs",
+              "RelativeToolTip": "TestWork\\Services\\OrderService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:38:58.505Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
