@@ -1,63 +1,36 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using Serilog.Events;
 using TestWork.Contracts;
 using TestWork.DataAccess;
 using TestWork.Models.DTO;
-using TestWork.Models.Entity;
 
 namespace TestWork.Services
 {
     public class OrderService([FromServices] TestWorkDbContext context) : IOrderService
     {
+        private const string EXCEPTIONMESSAGE = "Сообщение об ошибке {ExceptionType}: {Message}.\nОбъект, вызвавший исключение: {Source}.\nСтек исключения: {StackTrace}";
         private readonly TestWorkDbContext _context = context;
 
-        public async Task<ICollection<OrderDTO>> GetAllOrders(CancellationToken token)
-        {
-            ICollection<OrderDTO> orders = [];
-            try
-            {
-                orders = await _context.Orders.Select(order => new OrderDTO(order.Area.AreaName, order.DeliveryOrderTime.ToString("yyyy-MM-dd HH:mm:ss"))).ToArrayAsync(token);
-            }
-            catch (Exception ex)
-            {
-                LogException(ex);
-                return orders;
-            }
-
-            Log.Logger.Information($"Было получено {orders.Count} записей");
-            return orders;
-        }
-
-        public async Task<ICollection<OrderDTO>> GetFilteredOrdersByAreaName(string areaName, CancellationToken token)
+        public async Task<ICollection<OrderDTO>> GetFilteredOrders(string cityDistrictName, DateTime start, DateTime end, CancellationToken token)
         {
             ICollection<OrderDTO> orders = [];
 
             try
             {
-                orders = await _context.Orders.Where(order => order.Area.AreaName.ToLower() == areaName.ToLower())
-                    .Select(order => new OrderDTO(order.Area.AreaName, order.DeliveryOrderTime.ToString("yyyy-MM-dd HH:mm:ss")))
-                    .ToArrayAsync(token);
-            }
-            catch (Exception ex)
-            {
-                LogException(ex);
-                return orders;
-            }
+                var cityDistrict = await _context.СityDistricts.FirstOrDefaultAsync(district => district.СityDistrictName == cityDistrictName, token);
 
-            Log.Logger.Information($"Было получено {orders.Count} записей, по району: {areaName}");
-            return orders;
-        }
+                if(cityDistrict is null)
+                {
+                    Log.Logger.Warning($"Не был найден район с названием: {cityDistrictName}");
+                    return orders;
+                }
 
-        public async Task<ICollection<OrderDTO>> GetFilteredOrdersByDateTime(DateTime startDeliveryOrder, DateTime endDeliveryOrder, CancellationToken token)
-        {
-            ICollection<OrderDTO> orders = [];
-
-            try
-            {
                 orders = await _context.Orders
-                    .Where(order => order.DeliveryOrderTime >= startDeliveryOrder && order.DeliveryOrderTime <= endDeliveryOrder)
-                    .Select(order => new OrderDTO(order.Area.AreaName, order.DeliveryOrderTime.ToString("yyyy-MM-dd HH:mm:ss")))
+                    .Where(order => order.СityDistrictId == cityDistrict.СityDistrictId && 
+                    order.DeliveryOrderTime >= start && order.DeliveryOrderTime <= end)
+                    .Select(order => new OrderDTO(order.СityDistrict.СityDistrictName, order.DeliveryOrderTime.ToString("yyyy-MM-dd HH:mm:ss")))
                     .ToArrayAsync(token);
             }
             catch (Exception ex)
@@ -66,20 +39,14 @@ namespace TestWork.Services
                 return orders;
             }
 
-            Log.Logger.Information($"Было получено {orders.Count} записей, с {startDeliveryOrder} по {endDeliveryOrder}");
+            Log.Logger.Information($"Было получено {orders.Count} записей, по району {cityDistrictName} с {start} по {end}");
             return orders;
         }
 
         private static void LogException(Exception ex)
         {
-            if (ex is FormatException or ArgumentOutOfRangeException)
-            {
-                Log.Logger.Error(ex.Message, ex.Source);
-            }
-            else
-            {
-                Log.Logger.Fatal(ex.Message, ex.Source);
-            }
+            var logEventLevel = ex is FormatException or ArgumentOutOfRangeException ? LogEventLevel.Error : LogEventLevel.Fatal;
+            Log.Logger.Write(logEventLevel, ex, EXCEPTIONMESSAGE, ex.GetType().Name, ex.Message, ex.Source, ex.StackTrace);
         }
     }
 }

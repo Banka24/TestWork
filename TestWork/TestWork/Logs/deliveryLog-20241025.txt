@@ -1,0 +1,1269 @@
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger""" - 301 0 null 116.3847ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 39.4184ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/swagger-ui.css""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/swagger-ui-standalone-preset.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 9.1823ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 19.5469ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.css""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/swagger-ui-bundle.js""" - null null
+[Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[Information] Sending file. Request path: '"/index.css"'. Physical path: '"N/A"'
+[Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.css""" - 200 202 "text/css" 37.7187ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/swagger-ui-standalone-preset.js""" - 200 230293 "text/javascript" 38.6646ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 41.9979ms
+[Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/swagger-ui-bundle.js""" - 200 1452753 "text/javascript" 56.7387ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 46.847ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/favicon-32x32.png""" - null null
+[Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 4.6216ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 79.1764ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 121.4931ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 4.8056ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 11.1964ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 31.3128ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 75.8545ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 95
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "PostgresException": "3D000: ���� ������ \"NotesBank\" �� ����������".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+Npgsql.PostgresException (0x80004005): 3D000: ���� ������ "NotesBank" �� ����������
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+  Exception data:
+    Severity: �����
+    SqlState: 3D000
+    MessageText: ���� ������ "NotesBank" �� ����������
+    File: postinit.c
+    Line: 1021
+    Routine: InitPostgres
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 1144.1832ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 1179.5868ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 137.3741ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 8.4873ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 11.0768ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 32.7091ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 70.317ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 95
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 928.084ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 961.0403ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 109
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 20.2758ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 400 null "application/problem+json; charset=utf-8" 33.2697ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 114.9676ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 126.0898ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 54.8684ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 66.4949ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 124.6591ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 5.2582ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 11.086ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 32.1912ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 85.7249ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 109
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 73.5008ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 400 null "application/problem+json; charset=utf-8" 103.5764ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 124.0637ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 5.7783ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 9.1981ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 32.9905ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 75.6767ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 109
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 75.5462ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 400 null "application/problem+json; charset=utf-8" 102.0939ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 839.0369ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 850.5853ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 128.5407ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 3.7898ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 9.6499ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 34.2628ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 83.5284ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 889.889ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 922.172ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 121.4186ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 5.3807ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 10.6714ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 33.5086ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 82.9503ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 883.5024ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 916.4234ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 124.8738ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 3.4929ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 10.0472ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 36.3101ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 83.8621ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 92.4377ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Error] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: The UTC time represented when the offset is applied must be between year 0 and 10,000. (Parameter 'offset')
+   at System.DateTimeOffset.ValidateDate(DateTime dateTime, TimeSpan offset)
+   at System.DateTimeOffset..ctor(DateTime dateTime)
+   at System.DateTimeOffset.op_Implicit(DateTime dateTime)
+   at TestWork.Controllers.FilterController.GetFilterData(FilterOrderPostRequest request, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Controllers\FilterController.cs:line 20
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 500 null "text/plain; charset=utf-8" 150.5295ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 136.3098ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 7.6943ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 11.2373ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 34.1471ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 85.1518ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 937.3758ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 973.0646ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 87.0736ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 100.7454ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 156.8909ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 9.3352ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 15.936ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 36.8096ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 68.1508ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 889.6988ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 927.8554ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 2018.3814ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 2032.2836ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 2410.3686ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 2417.8156ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 22
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 52346.5452ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 52357.723ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 127.1582ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 5.9117ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 13.3481ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 37.1784ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 90.7892ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 141.4174ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 8.3833ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 11.364ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 35.8696ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 69.6073ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 95
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 0 записей, по району string с 25.10.2024 11:35:00 по 25.10.2024 12:05:00
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 14133.015ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 14167.8374ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 100
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 17.4926ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 400 null "application/problem+json; charset=utf-8" 24.2613ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 95
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 0 записей, по району string с 21.07.2024 10:19:14 по 21.07.2024 10:49:14
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 26660.6181ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 26668.2469ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 124ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 5.8082ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 9.0771ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 46.2574ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 83.0357ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 95
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 0 записей, по району string с 21.07.2024 10:19:14 по 21.07.2024 10:49:14
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 20072.4002ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 20105.6063ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 128.4348ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 7.573ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 10.3485ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 34.8157ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 82.6583ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 95
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 123.4772ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 4.3644ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 11.8677ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 32.7431ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 85.3605ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 95
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 131.5156ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 4.3254ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 11.6185ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 38.3092ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 80.6521ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 95
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Warning] Не был найден район с названием: string
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 810.7406ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 841.8393ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 124.7038ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 5.2231ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 11.6424ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 35.0252ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 83.1522ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 0 записей, по району Южный район с 21.07.2024 10:19:14 по 21.07.2024 10:49:14
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 895.1163ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 928.9269ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 149.6171ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 7.508ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 11.8507ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 41.3206ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 71.7299ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 0 записей, по району Южный район с 21.07.2024 10:19:14 по 21.07.2024 10:49:14
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 2366.0073ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 2398.8764ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 142.7357ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 5.1436ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 8.5334ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 32.5158ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 78.5555ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Fatal] Сообщение об ошибке "ArgumentException": "Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')".
+Объект, вызвавший исключение: "Npgsql".
+Стек исключения: "   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 30"
+System.ArgumentException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToArrayAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at TestWork.Services.OrderService.GetFilteredOrders(String cityDistrictName, DateTime start, DateTime end, CancellationToken token) in C:\Users\Banka\Desktop\TestWork\TestWork\TestWork\Services\OrderService.cs:line 30
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 966.0199ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 1000.2095ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 133.4068ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 6.7272ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 10.7188ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 35.7393ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 77.4081ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 1 записей, по району Южный район с 21.07.2024 7:19:14 по 21.07.2024 7:49:14
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 887.6944ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 923.4893ms
+[Information] Now listening on: "https://localhost:7007"
+[Information] Now listening on: "http://localhost:5044"
+[Information] Application started. Press Ctrl+C to shut down.
+[Information] Hosting environment: "Development"
+[Information] Content root path: "C:\Users\Banka\Desktop\TestWork\TestWork\TestWork"
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 210.0552ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - null null
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 7.1644ms
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_framework/aspnetcore-browser-refresh.js""" - 200 13752 "application/javascript; charset=utf-8" 15.0919ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 82.4174ms
+[Information] Request starting "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - null null
+[Information] Request finished "HTTP/2" "GET" "https"://"localhost:7007""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 109.5801ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 95
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Warning] Не был найден район с названием: string
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 1045.1897ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 1087.3182ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 37
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 23.5241ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 400 null "application/problem+json; charset=utf-8" 30.8481ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 7
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 4.8437ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 400 null "application/problem+json; charset=utf-8" 14.2623ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 65
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 1.223ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 400 null "application/problem+json; charset=utf-8" 7.515ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 0 записей, по району Жилой район с 25.10.2024 9:34:21 по 25.10.2024 10:04:21
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 141.2889ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 151.4997ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 54
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 2.2423ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 400 null "application/problem+json; charset=utf-8" 10.4812ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 0 записей, по району Жилой район с 25.10.2024 9:34:21 по 25.10.2024 10:04:21
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 16.8436ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 26.8184ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 0 записей, по району Жилой район с 29.10.2023 20:53:33 по 29.10.2023 21:23:33
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 7.1885ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 20.5614ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 110
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 1 записей, по району Жилой район с 29.10.2023 23:53:33 по 30.10.2023 0:23:33
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 10.9987ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 17.2159ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 116
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 1 записей, по району Район искусств с 11.08.2024 11:51:53 по 11.08.2024 12:21:53
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 43.4221ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 53.723ms
+[Information] Request starting "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - "application/json" 116
+[Information] Executing endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Route matched with "{action = \"GetFilterData\", controller = \"Filter\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilterData(TestWork.Models.Request.FilterOrderPostRequest, System.Threading.CancellationToken)" on controller "TestWork.Controllers.FilterController" ("TestWork").
+[Information] Было получено 3 записей, по району Район искусств с 11.08.2024 11:51:53 по 11.08.2024 12:21:53
+[Information] Executing "OkObjectResult", writing value of type '"TestWork.Models.Response.FilteredOrdersPostResponse"'.
+[Information] Executed action "TestWork.Controllers.FilterController.GetFilterData (TestWork)" in 8.538ms
+[Information] Executed endpoint '"TestWork.Controllers.FilterController.GetFilterData (TestWork)"'
+[Information] Request finished "HTTP/2" "POST" "https"://"localhost:7007""""/api/Filter""" - 200 null "application/json; charset=utf-8" 19.0878ms

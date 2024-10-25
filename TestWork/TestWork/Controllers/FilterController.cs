@@ -12,31 +12,21 @@ namespace TestWork.Controllers
     {
         private readonly IOrderService _orderService = orderService;
 
-        [HttpGet()]
-        public async Task<IActionResult> GetFilterData([FromQuery] FilterOrderGetRequest request, CancellationToken token)
+        [HttpPost()]
+        public async Task<IActionResult> GetFilterData([FromBody] FilterOrderPostRequest request, CancellationToken token)
         {
             ICollection<OrderDTO> orders = [];
 
-            if (!string.IsNullOrWhiteSpace(request.AreaName))
-            {
-                orders = await _orderService.GetFilteredOrdersByAreaName(request.AreaName, token);
-            }
-            else if(request.StartDeliveryOrder > request.EndDeliveryOrder)
+            if(string.IsNullOrWhiteSpace(request.СityDistrictName) || request.StartDeliveryOrderDateTime == DateTime.MinValue)
             {
                 return BadRequest();
             }
-            else if (request.StartDeliveryOrder != null || request.EndDeliveryOrder != null)
-            {
-                var start = request.StartDeliveryOrder ?? DateTime.MinValue;
-                var end = request.EndDeliveryOrder ?? DateTime.UtcNow;
-                orders = await _orderService.GetFilteredOrdersByDateTime(start, end, token);
-            }
-            else
-            {
-                orders = await _orderService.GetAllOrders(token);
-            }
 
-            return Ok(new FilteredOrdersGetResponse(orders));
+            var start = DateTime.SpecifyKind(request.StartDeliveryOrderDateTime.ToUniversalTime(), DateTimeKind.Unspecified);
+            var end = DateTime.SpecifyKind(start.AddMinutes(30), DateTimeKind.Unspecified);
+            orders = await _orderService.GetFilteredOrders(request.СityDistrictName, start, end, token);
+
+            return Ok(new FilteredOrdersPostResponse(orders));
         }
     }
 }

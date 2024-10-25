@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "TestWork.Controllers.FilterController",
+    "Method": "GetFilterData",
+    "RelativePath": "api/Filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TestWork.Models.Request.FilterOrderPostRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

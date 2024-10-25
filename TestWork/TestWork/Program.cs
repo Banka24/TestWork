@@ -12,8 +12,8 @@ namespace TestWork
             var builder = WebApplication.CreateBuilder(args);
 
             Log.Logger = new LoggerConfiguration()
-                .WriteTo.Console()
-                .WriteTo.File("Logs/deliveryLog-.txt", rollingInterval: RollingInterval.Day)
+                .WriteTo.Console(outputTemplate: "[{Level}] {Message}{NewLine}{Exception}")
+                .WriteTo.File("Logs/deliveryLog-.txt", rollingInterval: RollingInterval.Day, outputTemplate: "[{Level}] {Message}{NewLine}{Exception}")
                 .CreateLogger();
 
             builder.Services.AddControllers();
