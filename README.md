@@ -8,6 +8,7 @@
    – Пожалуйста, извлеките содержимое архива "TestWork.rar" в любое удобное для вас место.
 
 2. **Создание базы данных**
+   – Для работы вам потребуется СУБД PostgreSQL
    – Создайте новую базу данных (БД) и выполните SQL-запрос для создания таблиц "CityDistricts" и "Orders". Используйте предоставленный SQL-скрипт без изменений.
 
 3. **Импорт данных**
@@ -30,7 +31,7 @@ URL: POST /api/Filter
 Тело запроса (JSON):
 {
   "сityDistrictName": "string",
-  "startDeliveryOrderDateTime": "2024-10-25T19:24:24.182Z"
+  "startDeliveryOrderDateTime": "yyyy-MM-ddTHH:mm:ssZ"
 }
 Описание параметров:
 - сityDistrictName: Название района доставки.
